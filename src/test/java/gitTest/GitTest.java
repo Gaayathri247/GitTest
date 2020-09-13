@@ -39,7 +39,7 @@ public class GitTest {
 			File src = ((TakesScreenshot)wd).getScreenshotAs(OutputType.FILE);
 			FileUtils.copyFile(src, new File("C:\\Users\\gaayah\\Desktop\\SeleniumWorkspace\\GitTest\\Screenshot\\abc.png"));
 	
-			System.out.println("Google completed");
+			System.out.println("Google completed.");
 			wd.quit();
 			int i = 1/0;
 	}
