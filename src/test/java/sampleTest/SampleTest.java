@@ -34,7 +34,8 @@ public class SampleTest {
 			
 			File src = ((TakesScreenshot)wd).getScreenshotAs(OutputType.FILE);
 			FileUtils.copyFile(src, new File("C:\\Users\\gaayah\\Desktop\\SeleniumWorkspace\\ztryHere\\Black\\abc.png"));
-	wd.quit();
+	System.out.println("Bing completed");
+			wd.quit();
 	int i = 1/0;
 	}
 
